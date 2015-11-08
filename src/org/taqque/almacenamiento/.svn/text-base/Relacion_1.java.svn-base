@@ -1,0 +1,54 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package org.taqque.modelo;
+
+import java.util.Iterator;
+import java.util.List;
+import java.util.ArrayList;
+
+/**
+ *
+ * @author hernan
+ */
+public class Relacion implements java.io.Serializable, Iterable<Atributo> {
+
+    private List<Atributo> atributos;
+
+    public Relacion() {
+        atributos = new ArrayList<Atributo>();
+    }
+
+    public Relacion(List<Atributo> atributos) {
+        this.atributos = new ArrayList<Atributo>(atributos);
+    }
+
+    protected void adicionarAtributo(Atributo atributo) {
+        atributos.add(atributo);
+    }
+
+    public int getNumeroDeAtributos() {
+        return atributos.size();
+    }
+
+    @Override
+    public Iterator<Atributo> iterator() {
+        return atributos.iterator();
+    }
+
+    public Atributo getAtributo(int i) {
+        return atributos.get(i);
+    }
+
+    public int getIndiceAtributo(String atr) {
+
+        int i = 0;
+        for (Atributo atributo : atributos) {
+            if (atributo.getNombre().equals(atr)) {
+                return i;
+            }
+        }
+        return -1;
+    }
+}

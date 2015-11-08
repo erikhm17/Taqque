@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/12/trunk/Taqque/src/org/taqque/almacenamiento
+END
+GestorIOPagina.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/12/trunk/Taqque/src/org/taqque/almacenamiento/GestorIOPagina.java
+END
+Relacion.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/12/trunk/Taqque/src/org/taqque/almacenamiento/Relacion.java
+END
+GestorIOTupla.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/12/trunk/Taqque/src/org/taqque/almacenamiento/GestorIOTupla.java
+END
+Atributo.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/12/trunk/Taqque/src/org/taqque/almacenamiento/Atributo.java
+END
+IdentificadorTupla.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/12/trunk/Taqque/src/org/taqque/almacenamiento/IdentificadorTupla.java
+END
+Pagina.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/12/trunk/Taqque/src/org/taqque/almacenamiento/Pagina.java
+END
+Tupla.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/12/trunk/Taqque/src/org/taqque/almacenamiento/Tupla.java
+END
+Convert.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/12/trunk/Taqque/src/org/taqque/almacenamiento/Convert.java
+END
+IdentificadorPagina.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/12/trunk/Taqque/src/org/taqque/almacenamiento/IdentificadorPagina.java
+END
+Par.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/12/trunk/Taqque/src/org/taqque/almacenamiento/Par.java
+END

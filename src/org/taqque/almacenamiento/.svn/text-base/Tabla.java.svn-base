@@ -1,0 +1,30 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package org.taqque.modelo;
+
+/**
+ *
+ * @author hernan
+ */
+public class Tabla extends Relacion implements java.io.Serializable{
+      private String nombre;
+    
+    public Tabla(String nombre) {
+        super();
+        this.nombre = nombre;
+    } 
+
+    
+    public Tabla(String nombre, java.util.List<Atributo> atributos) {
+        super(atributos);
+        this.nombre = nombre;
+    }
+
+    
+    public String getNombre() {
+        return nombre;
+    }
+    
+}
